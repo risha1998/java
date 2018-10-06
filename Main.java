@@ -1,19 +1,23 @@
-public class Demo
+import java.util.*;
+ 
+class Main
 {
-    public static void main(String[] args) 
+    public static void main(String []s)
     {
-        int number=109;
-        if(number > 0)
-        {
-            System.out.println(number+" is a positive number");
-        }
-        else if(number < 0)
-        {
-            System.out.println(number+" is a negative number");
-        }
+        int num;
+        //Scanner class to read value
+        Scanner sc=new Scanner(System.in);
+         
+        System.out.print("Enter any integer number: ");
+        num=sc.nextInt();
+         
+        //check condition for +ve, -ve and Zero
+        if(num>0)
+            System.out.println(num + " is POSITIVE NUMBER.");
+        else if(num<0)
+            System.out.println(num + " is NEGATIVE NUMBER.");
         else
-        {
-            System.out.println(number+" is neither positive nor negative");
-        }
+            System.out.println("IT's ZERO.");
+         
     }
 }
