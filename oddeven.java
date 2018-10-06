@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EvenOdd {
+public class oddeven{
 
     public static void main(String[] args) {
 
